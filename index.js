@@ -111,18 +111,6 @@ bot.on('message', message=>{
             message.channel.send(welcome)
         break;
 
-    
-
-        //case 'embed':
-            //const embed = new Discord.MessageEmbed()
-            //.setTitle ('user information')
-           // .addField('Player Name', message.author.username)
-            //.addField('version', Discord.version)
-            //.addField('current server', message.guild.name)
-            //.setColor(0xF1C40F)
-            //message.channel.send(embed);
-        //break;
-
    }
 
 })
