@@ -48,7 +48,7 @@ bot.on('message', message=>{
         
         case 'mycred':
            
-            const Credaccount = require('./bdd/accounts.json')
+            const Credaccount = require('./bdd/accounts.json') // the json output is stored on my laptop. it's online here : https://github.com/sourcecred/sourcecred-instance/blob/gh-pages/output/accounts.json
             const objJSONtoString = JSON.stringify(Credaccount);
             
         // JSON to javascript
@@ -58,7 +58,7 @@ bot.on('message', message=>{
 
            // let welcomingbot = Array([a,b,c,d,e,f,g,hi,j,k]);
 
-
+// it's not a robust search and fits only the structure of the output file that SourceCred spits out
         if (args.length <2){
                 
             try{            
